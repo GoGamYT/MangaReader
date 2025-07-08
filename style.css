@@ -11,7 +11,7 @@ h1 {
 
 .serie-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 1rem;
 }
