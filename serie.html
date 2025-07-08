@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Capítulos de Serie</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>{{ titulo }}</h1>
+
+    <div v-if="capitulos.length > 0">
+      <h2>Capítulos disponibles</h2>
+      <ul>
+        <li v-for="cap in capitulos" :key="cap">
+          <a :href="`leer.html?id=${serieId}&cap=${encodeURIComponent(cap)}`">{{ cap }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div v-else>
+      <p>Cargando capítulos o la serie no existe.</p>
+    </div>
+  </div>
+
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          series: [],
+          serieId: '',
+          titulo: '',
+          capitulos: []
+        };
+      },
+      methods: {
+        async cargarSeries() {
+          try {
+            const res = await fetch('series.json');
+            this.series = await res.json();
+
+            const serie = this.series.find(s => s.id === this.serieId);
+            if (serie) {
+              this.titulo = serie.titulo;
+              this.capitulos = Object.keys(serie.capitulos).sort();
+            } else {
+              console.warn('No se encontró la serie con id:', this.serieId);
+            }
+          } catch (error) {
+            console.error('Error cargando series.json:', error);
+          }
+        }
+      },
+      mounted() {
+        const params = new URLSearchParams(window.location.search);
+        this.serieId = params.get('id');
+        if (this.serieId) {
+          this.cargarSeries();
+        }
+      }
+    }).mount('#app');
+  </script>
+</body>
+</html>
