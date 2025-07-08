@@ -2,25 +2,27 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lector de Mangas</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de mangas</title>
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="/scripts/main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app">
-    <h1>Lector de Mangas</h1>
-    <div class="serie-list">
-  <div v-for="serie in series" :key="serie.id" class="serie-card">
-    <a :href="'serie.html?id=' + serie.id">
-      <img :src="serie.portada" :alt="serie.titulo" />
-      <h2>{{ serie.titulo }}</h2>
-    </a>
-    <p class="categorias">
-      <span v-for="cat in serie.categorias" :key="cat" class="categoria">{{ cat }}</span>
-    </p>
+    <h1>Series disponibles</h1>
+
+    <div v-for="(seriesGrupo, tipo) in seriesPorTipo" :key="tipo" class="seccion-tipo">
+      <h2>{{ tipo }}</h2>
+      <div class="tarjeta-grid">
+        <div v-for="serie in seriesGrupo" :key="serie.id" class="tarjeta-serie">
+          <a :href="obtenerEnlaceSerie(serie)">
+            <img :src="serie.portada" :alt="serie.titulo" class="tarjeta-imagen" />
+            <h3 class="tarjeta-titulo">{{ serie.titulo }}</h3>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-  <script src="scripts/main.js"></script>
 </body>
 </html>
