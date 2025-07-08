@@ -12,13 +12,22 @@
   <div id="app">
     <h1>Series disponibles</h1>
 
-    <div v-for="(seriesGrupo, tipo) in seriesPorTipo" :key="tipo" class="seccion-tipo">
+    <button @click="mostrarAdultos = !mostrarAdultos" style="margin-bottom:1rem;">
+      {{ mostrarAdultos ? 'Ocultar contenido +18' : 'Mostrar contenido +18' }}
+    </button>
+
+    <div v-for="(seriesGrupo, tipo) in seriesFiltradasPorTipo" :key="tipo" class="seccion-tipo">
       <h2>{{ tipo }}</h2>
       <div class="tarjeta-grid">
         <div v-for="serie in seriesGrupo" :key="serie.id" class="tarjeta-serie">
-          <a :href="obtenerEnlaceSerie(serie)">
+          <a :href="obtenerEnlaceSerie(serie)" class="tarjeta-link">
             <img :src="serie.portada" :alt="serie.titulo" class="tarjeta-imagen" />
-            <h3 class="tarjeta-titulo">{{ serie.titulo }}</h3>
+            <div class="tarjeta-texto">
+              <h3>{{ serie.titulo }}</h3>
+            </div>
+            <div class="estado-tag" :class="estadoClass(serie.estado)">
+              {{ estadoTexto(serie.estado) }}
+            </div>
           </a>
         </div>
       </div>
