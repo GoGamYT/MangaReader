@@ -3,7 +3,8 @@
     "id": "sweet_hole_tankoubon",
     "titulo": "Sweet Hole (Tankoubon)",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/sweet_hole_tankoubon/Capitulo%20001/image_001.webp",
-    "categoria": ["+18","Origa"],
+    "categoria": ["Origa","manga"],
+    "tipo_historieta": "+18",
     "capitulos": {
       "Capitulo 001": 33,
       "Capitulo 002": 21,
@@ -18,7 +19,8 @@
     "id": "7_days",
     "titulo": "7 Days",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/7_days/Capitulo+001/image_001.webp",
-    "categoria": ["+18","Shota"],
+    "categoria": ["+18","Shota","manga"],
+    "tipo_historieta": "+18",
     "capitulos": {
       "Capitulo 001": 26,
       "Capitulo 002": 23,
@@ -29,10 +31,23 @@
     "id": "ara-ara_mama_to_seikou",
     "titulo": "ara-ara Mama to Seikou",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/ara-ara_mama_to_seikou/Capitulo+001/image_001.webp",
-    "categoria": ["+18","Shota"],
+    "categoria": ["+18","Shota","manga"],
+    "tipo_historieta": "+18",
     "capitulos": {
       "Capitulo 001": 43,
       "Capitulo 002": 18
+    }
+  },
+  {
+    "id": "31maPRS",
+    "titulo": "La 31ma Pieza Revierte la Situación",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/img/cover/Cover_MW001.webp",
+    "categoria": ["aventura","accion","fantasia"],
+    "tipo_historieta": "manhwa",
+    "capitulos": {
+      "Capitulo 001": 43,
+      "Capitulo 002": 18,
+      "Capitulo 011": 42
     }
   }
 ]

@@ -6,9 +6,11 @@ createApp({
       id: '',
       capitulo: '',
       titulo: '',
+      tipo_historieta: '%2B18', // valor por defecto codificado
       imagenes: [],
       urlsPendientes: [],
-      baseURL: 'https://f005.backblazeb2.com/file/ComicsMangas'
+      baseURL: 'https://f005.backblazeb2.com/file/ComicsMangas',
+      series: []
     };
   },
   methods: {
@@ -22,10 +24,11 @@ createApp({
     },
 
     async generarUrls(totalImgs) {
+      const carpetaTipo = encodeURIComponent(this.tipo_historieta);
       const carpetaId = encodeURIComponent(this.id);
       const carpetaCapitulo = encodeURIComponent(this.capitulo);
-      const ruta = `chapter/%2B18/${carpetaId}/${carpetaCapitulo}`;
 
+      const ruta = `chapter/${carpetaTipo}/${carpetaId}/${carpetaCapitulo}`;
       const urlCero = `${this.baseURL}/${ruta}/image_000.webp`;
       const empiezaEnCero = await this.existeImagen(urlCero);
 
@@ -61,17 +64,22 @@ createApp({
     async fetchSerieInfo() {
       try {
         const res = await fetch('series.json');
-        const series = await res.json();
-        const serie = series.find(s => s.id === this.id);
+        this.series = await res.json();
+        const serie = this.series.find(s => s.id === this.id);
+
         if (serie) {
           this.titulo = serie.titulo;
+          this.tipo_historieta = serie.tipo_historieta || '+18';
           const totalImgs = serie.capitulos?.[this.capitulo] || 0;
+
           if (totalImgs > 0) {
             await this.generarUrls(totalImgs);
             this.cargarImagenSecuencial();
           } else {
             console.warn('No se encontró número de imágenes para el capítulo');
           }
+        } else {
+          console.warn('Serie no encontrada con id:', this.id);
         }
       } catch (error) {
         console.error('Error cargando series.json:', error);
