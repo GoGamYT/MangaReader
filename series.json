@@ -13,5 +13,16 @@
       "Capitulo 006": 19,
       "Capitulo 007": 26
     }
+  },
+  {
+    "id": "7-day",
+    "titulo": "7 Day",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/7_days/Capitulo+001/image_001.webp",
+    "categoria": ["+18","Shota"],
+    "capitulos": {
+      "Capitulo 001": 26,
+      "Capitulo 002": 23,
+      "Capitulo 003": 11
+    }
   }
 ]
