@@ -48,8 +48,8 @@ h1 {
   width: 100%;
   height: auto;
   display: block;
-  margin-bottom: 1rem;
-  border-radius: 8px;
+  /*margin-bottom: 1rem*/;
+  /*border-radius: 8px*/;
   user-select: none;
 }
 .lector {
