@@ -116,5 +116,20 @@
       "Capitulo 002": 18,
       "Capitulo 011": 42
     }
+  },
+  {
+    "id": "madan_no_ichi",
+    "titulo": "Madan no Ichi",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/img/cover/Cover_MG002.webp",
+    "categoria": ["aventura","accion","fantasia"],
+    "tipo_historieta": "manga",
+    "estado": "publicandose",
+    "capitulos": {
+      "Capitulo 001": 43,
+      "Capitulo 002": 24,
+      "Capitulo 003": 22,
+      "Capitulo 004": 18,
+      "Capitulo 005": 18
+    }
   }
 ]
