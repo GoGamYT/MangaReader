@@ -78,10 +78,17 @@ a {
   width: 100%;
   height: auto;
   display: block;
-  /*margin-bottom: 1rem*/;
-  /*border-radius: 8px*/;
+  margin-bottom: 1rem;
+  border-radius: 4px;
   user-select: none;
 }
+
+.tipo-manhwa .lector img,
+.tipo-manhua .lector img {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
 .lector {
   max-width: 900px;
   margin: auto;

@@ -14,7 +14,12 @@
       <h2>Capítulos disponibles</h2>
       <ul>
         <li v-for="cap in capitulos" :key="cap">
-          <a :href="`leer.html?id=${serieId}&cap=${encodeURIComponent(cap)}`">{{ cap }}</a>
+          <a 
+            :href="cap === 'Unico' 
+              ? `leer.html?id=${serieId}` 
+              : `leer.html?id=${serieId}&cap=${encodeURIComponent(cap)}`">
+            {{ cap }}
+          </a>
         </li>
       </ul>
     </div>
@@ -45,7 +50,14 @@
             const serie = this.series.find(s => s.id === this.serieId);
             if (serie) {
               this.titulo = serie.titulo;
-              this.capitulos = Object.keys(serie.capitulos).sort();
+
+              if (serie.capitulos) {
+                this.capitulos = Object.keys(serie.capitulos).sort();
+              } else if (serie.total) {
+                this.capitulos = ['Unico']; // capítulo único
+              } else {
+                this.capitulos = [];
+              }
             } else {
               console.warn('No se encontró la serie con id:', this.serieId);
             }

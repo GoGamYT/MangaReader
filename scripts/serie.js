@@ -20,9 +20,14 @@ createApp({
     seleccionarSerie(id) {
       this.seleccionSerieId = id;
       const serie = this.series.find(s => s.id === id);
-      if (serie && serie.capitulos) {
-        // Extraemos los capítulos ordenados (por nombre o por clave)
-        this.capitulos = Object.keys(serie.capitulos).sort();
+      if (serie) {
+        if (serie.capitulos) {
+          this.capitulos = Object.keys(serie.capitulos).sort();
+        } else if (serie.total) {
+          this.capitulos = ['Unico']; // capítulo único para series sin capítulos
+        } else {
+          this.capitulos = [];
+        }
       } else {
         this.capitulos = [];
       }
