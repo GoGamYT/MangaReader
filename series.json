@@ -15,6 +15,17 @@
     }
   },
   {
+    "id": "apartamento_papakatsu",
+    "titulo": "Apartamento Papakatsu",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/apartamento_papakatsu/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 19
+  },
+  {
     "id": "ara_ara_mama_to_seikou",
     "titulo": "Ara-ara Mama to Seikou",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/ara-ara_mama_to_seikou/Capitulo%20001/image_001.webp",
@@ -169,6 +180,17 @@
     }
   },
   {
+    "id": "haren_de_naufragos_en_una_isla_desierta",
+    "titulo": "Haren de Naufragos en una Isla Desierta",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/haren_de_naufragos_en_una_isla_desierta/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 113
+  },
+  {
     "id": "hoes_over_bros",
     "titulo": "Hoes Over Bros",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/hoes_over_bros/image_001.webp",
@@ -226,6 +248,19 @@
     }
   },
   {
+    "id": "inka_no_k_cupchan",
+    "titulo": "Inka no k Cupchan",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/inka_no_k_cupchan/Capitulo%20001/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "capitulos": {
+      "Capitulo 001": 42
+    }
+  },
+  {
     "id": "intercambio_de_erradicacion_del_bullying",
     "titulo": "Intercambio de Erradicacion del Bullying",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/intercambio_de_erradicacion_del_bullying/Capitulo%20001/image_001.webp",
@@ -251,6 +286,17 @@
     "tipo_historieta": "+18",
     "estado": "finalizado",
     "total": 45
+  },
+  {
+    "id": "ippai_asobou_ouchi_hen",
+    "titulo": "Ippai Asobou Ouchi hen",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/ippai_asobou_ouchi_hen/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 26
   },
   {
     "id": "jimoto_no_hame_tomo",
@@ -299,6 +345,17 @@
     }
   },
   {
+    "id": "kanojo_no_mama_to_deaikei_de",
+    "titulo": "Kanojo no Mama to Deaikei de",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/kanojo_no_mama_to_deaikei_de/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 31
+  },
+  {
     "id": "kuro_gal_no_susume",
     "titulo": "Kuro gal no Susume",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/kuro_gal_no_susume/image_001.webp",
@@ -321,6 +378,17 @@
     "capitulos": {
       "Capitulo 001": 39
     }
+  },
+  {
+    "id": "la_jefa_pelma_de_mi_trabajo_que_se_viste_de_chavalita_para_irse_a_jugar",
+    "titulo": "la Jefa Pelma de mi Trabajo que se Viste de Chavalita Para Irse a Jugar",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/la_jefa_pelma_de_mi_trabajo_que_se_viste_de_chavalita_para_irse_a_jugar/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 28
   },
   {
     "id": "la_madre_de_mi_amigo_es_una_prostituta_de_grandes_pechos",
@@ -347,6 +415,66 @@
     }
   },
   {
+    "id": "la_se_ora_de_las_medias_de_al_lado_se_siente_agitada",
+    "titulo": "la Señora de las Medias de al Lado se Siente Agitada",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/la_se%C3%B1ora_de_las_medias_de_al_lado_se_siente_agitada/Capitulo%20001/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "capitulos": {
+      "Capitulo 001": 31,
+      "Capitulo 002": 27
+    }
+  },
+  {
+    "id": "los_chicos_maduran_en_verano",
+    "titulo": "los Chicos Maduran en Verano",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/los_chicos_maduran_en_verano/Capitulo%20004/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "capitulos": {
+      "Capitulo 004": 69
+    }
+  },
+  {
+    "id": "me_encontre_con_compa_eras_de_clase",
+    "titulo": "me Encontre con Compañeras de Clase",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/me_encontre_con_compa%C3%B1eras_de_clase/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 50
+  },
+  {
+    "id": "me_he_convertido_en_un_incubus_y_ahora_puedo_tener_una_vida_sexual_con_mis_companeras_de_secundaria",
+    "titulo": "me he Convertido en un Incubus y Ahora Puedo Tener una Vida Sexual con mis Companeras de Secundaria",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/me_he_convertido_en_un_incubus_y_ahora_puedo_tener_una_vida_sexual_con_mis_companeras_de_secundaria/image_002.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 49
+  },
+  {
+    "id": "mi_experiencia_de_inseminaci_n_y_orde_o",
+    "titulo": "mi Experiencia de Inseminación y Ordeño",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/mi_experiencia_de_inseminaci%C3%B3n_y_orde%C3%B1o/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 46
+  },
+  {
     "id": "mi_reservada_novia_no_puede_negarse",
     "titulo": "mi Reservada Novia no Puede Negarse",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/mi_reservada_novia_no_puede_negarse/image_001.webp",
@@ -367,6 +495,30 @@
     "tipo_historieta": "+18",
     "estado": "finalizado",
     "total": 57
+  },
+  {
+    "id": "nee_chiyo",
+    "titulo": "nee Chiyo",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/nee_chiyo/Capitulo%20001/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "capitulos": {
+      "Capitulo 001": 32
+    }
+  },
+  {
+    "id": "netorare_ochita_tsubaki",
+    "titulo": "Netorare Ochita Tsubaki",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/netorare_ochita_tsubaki/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 65
   },
   {
     "id": "nouka_no_yome_to_zetsurin_gifu_totsuida_saki_de_matteita_no_wa_tetori_ashitori_tanetsuke_choukyou",
@@ -402,6 +554,28 @@
     "total": 39
   },
   {
+    "id": "obedience",
+    "titulo": "Obedience",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/obedience/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 76
+  },
+  {
+    "id": "oyasumi_okaasan",
+    "titulo": "Oyasumi Okaasan",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/oyasumi_okaasan/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 203
+  },
+  {
     "id": "paihame_kazoku",
     "titulo": "Paihame Kazoku",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/paihame_kazoku/Capitulo%20001/image_001.webp",
@@ -411,7 +585,8 @@
     "tipo_historieta": "+18",
     "estado": "finalizado",
     "capitulos": {
-      "Capitulo 001": 41
+      "Capitulo 001": 41,
+      "Capitulo 004": 49
     }
   },
   {
@@ -424,6 +599,20 @@
     "tipo_historieta": "+18",
     "estado": "finalizado",
     "total": 21
+  },
+  {
+    "id": "quiero_consentir_a_una_madre_soltera",
+    "titulo": "Quiero Consentir a una Madre Soltera",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/quiero_consentir_a_una_madre_soltera/Capitulo%20001/image_002.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "capitulos": {
+      "Capitulo 001": 31,
+      "Capitulo 002": 31
+    }
   },
   {
     "id": "reptil_en_una_noche_nevada_yukifuru_yoru_no_reptile",
@@ -478,6 +667,17 @@
     }
   },
   {
+    "id": "tansei_komete_sodatemashita",
+    "titulo": "Tansei Komete Sodatemashita",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/tansei_komete_sodatemashita/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 21
+  },
+  {
     "id": "touko_amamiya_esposa_academica_y_profesora_en_celo",
     "titulo": "Touko Amamiya Esposa Academica y Profesora en Celo",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/touko_amamiya_esposa_academica_y_profesora_en_celo/image_001.webp",
@@ -487,6 +687,17 @@
     "tipo_historieta": "+18",
     "estado": "finalizado",
     "total": 83
+  },
+  {
+    "id": "tousaku_saimin_jikken_nakadashi_oshioki_bukatsudou",
+    "titulo": "Tousaku Saimin Jikken Nakadashi Oshioki Bukatsudou",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/tousaku_saimin_jikken_nakadashi_oshioki_bukatsudou/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "total": 205
   },
   {
     "id": "un_pueblo_del_que_no_puedo_salir_a_menos_que_embarace_a_mis_hermanitas",
@@ -522,6 +733,19 @@
     "total": 47
   },
   {
+    "id": "una_mujer_cuarentona_inicia_una_relacion_con_el_hijo_de_su_mejor_amiga",
+    "titulo": "una Mujer Cuarentona Inicia una Relacion con el Hijo de su Mejor Amiga",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/una_mujer_cuarentona_inicia_una_relacion_con_el_hijo_de_su_mejor_amiga/Capitulo%20001/image_001.webp",
+    "categoria": [
+      "+18"
+    ],
+    "tipo_historieta": "+18",
+    "estado": "finalizado",
+    "capitulos": {
+      "Capitulo 001": 58
+    }
+  },
+  {
     "id": "vendedora_de_flores",
     "titulo": "Vendedora de Flores",
     "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/%2B18/vendedora_de_flores/image_001.webp",
@@ -531,71 +755,5 @@
     "tipo_historieta": "+18",
     "estado": "finalizado",
     "total": 39
-  },
-  {
-    "id": "madan_no_ichi",
-    "titulo": "Madan no Ichi",
-    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/manga/madan_no_ichi/Capitulo%20001/image_001.webp",
-    "categoria": [
-      "manga"
-    ],
-    "tipo_historieta": "manga",
-    "estado": "finalizado",
-    "capitulos": {
-      "Capitulo 001": 49,
-      "Capitulo 002": 24,
-      "Capitulo 003": 22,
-      "Capitulo 004": 18,
-      "Capitulo 005": 18,
-      "Capitulo 006": 18,
-      "Capitulo 007": 20,
-      "Capitulo 008": 18,
-      "Capitulo 009": 18,
-      "Capitulo 010": 18,
-      "Capitulo 011": 21,
-      "Capitulo 012": 19,
-      "Capitulo 013": 18,
-      "Capitulo 014": 17,
-      "Capitulo 015": 21,
-      "Capitulo 016": 16,
-      "Capitulo 017": 17,
-      "Capitulo 018": 16,
-      "Capitulo 019": 20,
-      "Capitulo 020": 19,
-      "Capitulo 021": 19,
-      "Capitulo 022": 20,
-      "Capitulo 023": 18,
-      "Capitulo 024": 19,
-      "Capitulo 025": 21,
-      "Capitulo 026": 18,
-      "Capitulo 027": 18,
-      "Capitulo 028": 19,
-      "Capitulo 029": 18,
-      "Capitulo 030": 20,
-      "Capitulo 031": 17,
-      "Capitulo 032": 19,
-      "Capitulo 033": 21,
-      "Capitulo 034": 17,
-      "Capitulo 035": 18,
-      "Capitulo 036": 21,
-      "Capitulo 037": 20,
-      "Capitulo 038": 18,
-      "Capitulo 039": 18,
-      "Capitulo 040": 21,
-      "Capitulo 041": 18
-    }
-  },
-  {
-    "id": "la_31ma_pieza_revierte_la_situacion",
-    "titulo": "la 31ma Pieza Revierte la Situacion",
-    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/manhwa/la_31ma_pieza_revierte_la_situacion/Capitulo%20011/image_001.webp",
-    "categoria": [
-      "manhwa"
-    ],
-    "tipo_historieta": "manhwa",
-    "estado": "finalizado",
-    "capitulos": {
-      "Capitulo 011": 43
-    }
   }
 ]
