@@ -755,5 +755,71 @@
     "tipo_historieta": "+18",
     "estado": "finalizado",
     "total": 39
+  },
+  {
+    "id": "madan_no_ichi",
+    "titulo": "Madan no Ichi",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/manga/madan_no_ichi/Capitulo%20001/image_001.webp",
+    "categoria": [
+      "manga"
+    ],
+    "tipo_historieta": "manga",
+    "estado": "finalizado",
+    "capitulos": {
+      "Capitulo 001": 49,
+      "Capitulo 002": 24,
+      "Capitulo 003": 22,
+      "Capitulo 004": 18,
+      "Capitulo 005": 18,
+      "Capitulo 006": 18,
+      "Capitulo 007": 20,
+      "Capitulo 008": 18,
+      "Capitulo 009": 18,
+      "Capitulo 010": 18,
+      "Capitulo 011": 21,
+      "Capitulo 012": 19,
+      "Capitulo 013": 18,
+      "Capitulo 014": 17,
+      "Capitulo 015": 21,
+      "Capitulo 016": 16,
+      "Capitulo 017": 17,
+      "Capitulo 018": 16,
+      "Capitulo 019": 20,
+      "Capitulo 020": 19,
+      "Capitulo 021": 19,
+      "Capitulo 022": 20,
+      "Capitulo 023": 18,
+      "Capitulo 024": 19,
+      "Capitulo 025": 21,
+      "Capitulo 026": 18,
+      "Capitulo 027": 18,
+      "Capitulo 028": 19,
+      "Capitulo 029": 18,
+      "Capitulo 030": 20,
+      "Capitulo 031": 17,
+      "Capitulo 032": 19,
+      "Capitulo 033": 21,
+      "Capitulo 034": 17,
+      "Capitulo 035": 18,
+      "Capitulo 036": 21,
+      "Capitulo 037": 20,
+      "Capitulo 038": 18,
+      "Capitulo 039": 18,
+      "Capitulo 040": 21,
+      "Capitulo 041": 18
+    }
+  },
+  {
+    "id": "la_31ma_pieza_revierte_la_situacion",
+    "titulo": "la 31ma Pieza Revierte la Situacion",
+    "portada": "https://f005.backblazeb2.com/file/ComicsMangas/chapter/manhwa/la_31ma_pieza_revierte_la_situacion/Capitulo%20011/image_001.webp",
+    "categoria": [
+      "manhwa"
+    ],
+    "tipo_historieta": "manhwa",
+    "estado": "finalizado",
+    "capitulos": {
+      "Capitulo 011": 43
+    }
   }
 ]
