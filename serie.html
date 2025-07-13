@@ -10,6 +10,10 @@
   <div id="app">
     <h1>{{ titulo }}</h1>
 
+    <div style="text-align: center; margin: 20px 0;">
+      <button @click="irAlIndex" class="btn-home">🏠 Volver al Inicio</button>
+    </div>
+
     <div v-if="capitulos.length > 0">
       <h2>Capítulos disponibles</h2>
       <ul>

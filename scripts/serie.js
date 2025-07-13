@@ -4,7 +4,8 @@ createApp({
   data() {
     return {
       series: [],
-      seleccionSerieId: null,
+      serieId: '',
+      titulo: '',
       capitulos: []
     };
   },
@@ -13,27 +14,34 @@ createApp({
       try {
         const res = await fetch('series.json');
         this.series = await res.json();
+
+        const serie = this.series.find(s => s.id === this.serieId);
+        if (serie) {
+          this.titulo = serie.titulo;
+
+          if (serie.capitulos) {
+            this.capitulos = Object.keys(serie.capitulos).sort();
+          } else if (serie.total) {
+            this.capitulos = ['Unico']; // capítulo único
+          } else {
+            this.capitulos = [];
+          }
+        } else {
+          console.warn('No se encontró la serie con id:', this.serieId);
+        }
       } catch (error) {
         console.error('Error cargando series.json:', error);
       }
     },
-    seleccionarSerie(id) {
-      this.seleccionSerieId = id;
-      const serie = this.series.find(s => s.id === id);
-      if (serie) {
-        if (serie.capitulos) {
-          this.capitulos = Object.keys(serie.capitulos).sort();
-        } else if (serie.total) {
-          this.capitulos = ['Unico']; // capítulo único para series sin capítulos
-        } else {
-          this.capitulos = [];
-        }
-      } else {
-        this.capitulos = [];
-      }
+    irAlIndex() {
+      window.location.href = '/index.html'; // Cambia si tu página principal tiene otro nombre o ruta
     }
   },
   mounted() {
-    this.cargarSeries();
+    const params = new URLSearchParams(window.location.search);
+    this.serieId = params.get('id');
+    if (this.serieId) {
+      this.cargarSeries();
+    }
   }
 }).mount('#app');

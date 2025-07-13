@@ -125,3 +125,41 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.navegacion-capitulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.navegacion-capitulos button,
+.navegacion-capitulos select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.navegacion-capitulos.inferior {
+  margin-top: 40px;
+}
+
+.btn-home {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+  background-color: #2980b9;
+}
