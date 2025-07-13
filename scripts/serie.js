@@ -33,9 +33,6 @@ createApp({
         console.error('Error cargando series.json:', error);
       }
     },
-    irAlIndex() {
-      window.location.href = '/index.html'; // Cambia si tu página principal tiene otro nombre o ruta
-    }
   },
   mounted() {
     const params = new URLSearchParams(window.location.search);

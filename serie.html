@@ -4,15 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Capítulos de Serie</title>
+  <link rel="stylesheet" href="serie.css"/>
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 </head>
 <body>
   <div id="app">
     <h1>{{ titulo }}</h1>
 
-    <div style="text-align: center; margin: 20px 0;">
-      <button @click="irAlIndex" class="btn-home">🏠 Volver al Inicio</button>
-    </div>
+    <a href="index.html" class="btn-home">🏠 Volver al Inicio</a>
 
     <div v-if="capitulos.length > 0">
       <h2>Capítulos disponibles</h2>
