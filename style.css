@@ -119,3 +119,9 @@ a {
   background-color: #f1c40f; /* amarillo */
   color: #333; /* texto oscuro para contraste */
 }
+
+@media (max-width: 900px) {
+  .tarjeta-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
